@@ -1,0 +1,16 @@
+local platform = script. Parent
+--make the part disappear
+• local function disappear platform.CanCollide = platform. Transparency
+false
+1
+end
+--make the part reappear
+• local function appear)
+platform.CanCollide = true
+platform. Transparency = 0
+end
+-Create a loop to make the part disappear and reappear in real time
+• while true do wait (3)
+disappear
+wait(3)
+appear ()saimithun 
