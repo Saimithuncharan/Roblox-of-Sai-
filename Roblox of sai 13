@@ -1,0 +1,6 @@
+local part =instance.new ("part) 
+part .parent =game.workspace 
+part.size = vector3 .new(4,1,2)
+part.position = vector3.new(0, 10, 0)
+part.Brickcolor = Brickcolor.new("Bright red")
+part.Name = "Roblox of sai"
